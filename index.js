@@ -4,7 +4,7 @@ import fetch from 'node-fetch';
 const app = express();
 
 // Middleware API Key
-const validKey = 'YOUR_API_KEY'; // Ganti sesuai kebutuhan
+const validKey = 'ALsZU6l6dNSWfu0uhVQXq60Y9xQ7bXa7GgfgWJD8UOUdG0xAOwSebAxtIBwlnNOi'; // Ganti sesuai kebutuhan
 const limits = new Map(); // Simpan data limit API Key
 
 function resetLimits() {
